@@ -109,25 +109,25 @@ export const HorizontalBarChart = (props) => {
                     borderWidth: 0,
                     height: 20,
                     name: 'USD/JPY',
-                    data: [5],
+                    data: [3],
                 },
                 {
                     borderWidth: 0,
                     height: 20,
                     name: 'AUD/CAD',
-                    data: [5],
+                    data: [7],
                 },
                 {
                     borderWidth: 0,
                     height: 20,
                     name: 'EUR/GBP',
-                    data: [5],
+                    data: [8],
                 },
                 {
                     borderWidth: 0,
                     height: 20,
                     name: 'USD/EUR',
-                    data: [5],
+                    data: [2],
                 },
 
             ]
