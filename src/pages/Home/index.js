@@ -3,7 +3,7 @@ import {SafeAreaView, StatusBar} from 'react-native';
 import {Container, Row, Box, Picker, Label} from '../../components';
 import colors from '../../styles/colors';
 import {VerticalBarChart, HorizontalBarChart} from '../../components/charts/bars'
-
+import {DonutPieChart} from '../../components/charts/pie'
 const Home = () => {
   return (
     <Container>
@@ -35,7 +35,7 @@ const Home = () => {
               </Label>
               <Label>Last 7 days</Label>
             </Row>
-            <Row fluid>{/*<DonutPitChart />*/}</Row>
+            <Row fluid><DonutPieChart /></Row>
           </Box>
         </Row>
         <Row marginTop="20px">
