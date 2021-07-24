@@ -29,7 +29,7 @@ export const VerticalBarChart = (props) => {
             maxPadding: 0,
         },
         tooltip: {
-            backgroundColor: colors.dark,
+            backgroundColor: colors.grey50,
             borderRadius: 10,
             borderWidth: 1,
         },
@@ -51,4 +51,86 @@ export const VerticalBarChart = (props) => {
         ]
 }}
      />;
+}
+
+export const HorizontalBarChart = (props) => {
+
+    return <Chart
+        styles={{
+            height: 80,
+            widht: '100%',
+            flex: 1
+        }}
+        options={{
+            chart: {
+                type: 'bar',
+                backgroundColor: colors.dark,
+                spacing: [0, 0, 0, 0],
+                margin: [0, 0, 0, 0],
+            },
+            credits: {
+                enabled: false
+            },
+            title: {
+                text: ''
+            },
+            plotOptions: {
+                series: {
+                    stacking: 'normal',
+                }
+            },
+            yAxis: {
+                visible: false,
+                min: 0,
+                max: 20,
+                padding: [0, 0, 0, 0],
+                margin: [0, 0, 0, 0],
+            },
+            legend: {
+                itemStyle:{
+                    color: colors.grey50,
+                },
+            },
+            tooltip: {
+                backgroundColor: colors.grey50,
+                borderRadius: 10,
+                borderWidth: 1,
+                formatter: function () {
+                    return `${this.series.name} : ${this.y} oparations`
+                }
+            },
+            xAxis:{
+                max: 10,
+                padding: [0, 0, 0, 0],
+                margin: [0, 0, 0, 0],
+            },
+            series: [
+                {
+                    borderWidth: 0,
+                    height: 20,
+                    name: 'USD/JPY',
+                    data: [5],
+                },
+                {
+                    borderWidth: 0,
+                    height: 20,
+                    name: 'AUD/CAD',
+                    data: [5],
+                },
+                {
+                    borderWidth: 0,
+                    height: 20,
+                    name: 'EUR/GBP',
+                    data: [5],
+                },
+                {
+                    borderWidth: 0,
+                    height: 20,
+                    name: 'USD/EUR',
+                    data: [5],
+                },
+
+            ]
+        }}
+    />
 }
