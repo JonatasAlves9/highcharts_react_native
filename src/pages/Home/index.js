@@ -56,7 +56,7 @@ const Home = () => {
                 Call x Put Operations.
               </Label>
               <Label>Last 7 days</Label>
-            </Row>
+            </Row >
             <Row fluid><VerticalBarChart /></Row>
           </Box>
         </Row>
