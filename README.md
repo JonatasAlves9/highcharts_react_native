@@ -36,10 +36,6 @@ Prestar bastante atenção que é necessário fazer uma modificação no import 
 
 [GitHub - JonatasAlves9/highcharts_react_native: Projeto mobile desenvolvido com React Native, fazendo a utilização de gráficos com o 'HighCharts'.](https://github.com/JonatasAlves9/highcharts_react_native)
 
-![Gra%CC%81ficos%20no%20React%20Native%20com%20HighCharts%20af4cd1c48ee043039f7b545e2c9fa5c7/Screenshot_20210724-130835_RNHighcharts.jpg](Gra%CC%81ficos%20no%20React%20Native%20com%20HighCharts%20af4cd1c48ee043039f7b545e2c9fa5c7/Screenshot_20210724-130835_RNHighcharts.jpg)
-
-![Gra%CC%81ficos%20no%20React%20Native%20com%20HighCharts%20af4cd1c48ee043039f7b545e2c9fa5c7/Screenshot_20210724-130838_RNHighcharts.jpg](Gra%CC%81ficos%20no%20React%20Native%20com%20HighCharts%20af4cd1c48ee043039f7b545e2c9fa5c7/Screenshot_20210724-130838_RNHighcharts.jpg)
-
 ## LinkedIn
 
 [Jônatas Alves - Estagiário de desenvolvimento de software - Adasi Software | LinkedIn](https://www.linkedin.com/in/j%C3%B4natas-alves-13b868183/)
